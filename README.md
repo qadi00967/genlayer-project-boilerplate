@@ -13,7 +13,7 @@ A full-stack decentralized prediction market for football matches, powered by AI
 - Ready-to-use Next.js frontend
 
 ## 🚀 Deployed Contract
-**Contract Address:** [PUT YOUR CONTRACT ADDRESS HERE AFTER DEPLOYMENT]
+**Contract Address:** `0xfd188556eac4df7dd2a4246cddb6f61a154bfecb69aa4ea1771297443c96fa3c`
 
 **GitHub Repository:** https://github.com/qadi00967/genlayer-project-boilerplate
 
