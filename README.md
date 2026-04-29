@@ -1,39 +1,35 @@
 # ROOJO Predictify - AI-Powered Decentralized Football Prediction Market
 
-**Built with GenLayer Intelligent Contracts**
+**A complete intelligent contract + tutorial for GenLayer**
 
-A full-stack decentralized prediction market for football matches, powered by AI and Intelligent Contracts.
+This project demonstrates how to build a real-world decentralized prediction market using GenLayer's Intelligent Contracts. Users create markets for football matches, place bets, and the AI jury automatically resolves the outcome by fetching real data from the web.
 
-## ✨ Features
-- Create prediction markets for any football match (teams, date, winner)
-- AI-powered automatic outcome resolution using GenLayer LLM Jury
-- Web data fetching (no traditional oracles needed)
-- Points & rewards system for accurate predictions
-- Natural language betting interface
-- Ready-to-use Next.js frontend
+## Technical Overview
+- **Contract Type**: Python Intelligent Contract
+- **Key Feature**: LLM Jury + web data fetching (no traditional oracles)
+- **Deployed On**: GenLayer Testnet
+- **Contract Address**: 0xfd188556eac4df7dd2a4246cddb6f61a154bfecb69aa4ea1771297443c96fa3c
 
-## 🚀 Deployed Contract
-**Contract Address:** `0xfd188556eac4df7dd2a4246cddb6f61a154bfecb69aa4ea1771297443c96fa3c`
+## Tutorial: How to Build This Project Step by Step
 
-**GitHub Repository:** https://github.com/qadi00967/genlayer-project-boilerplate
+### 1. Fork the Boilerplate
+- Go to the official GenLayer boilerplate and fork it.
 
-## 🛠️ Tech Stack
-- Python Intelligent Contract (GenLayer)
-- LLM Jury for autonomous decision making
-- Web Scraping & Data Fetching
-- Next.js + GenLayerJS Frontend
+### 2. Open in GenLayer Studio
+- Open `football_prediction_market.py`
+- Customize the contract name and description
 
-## How to Run
-1. Clone the repository
-2. Follow the `frontend/` folder instructions
-3. Deploy the contract using GenLayer Studio
+### 3. Deploy the Contract
+- Fill constructor parameters (game date, team1, team2)
+- Deploy → copy the contract address
 
-## About the Project
-This project demonstrates the power of GenLayer's Intelligent Contracts by combining blockchain with real-world AI capabilities for automated sports prediction markets.
+### 4. Interact with the Contract
+- Use `resolve()` method after the match ends
+- AI jury handles everything automatically
 
-Built by **ROOJO (qadi00967 / brr_lin)**  
-Contribution to GenLayer Builder Program - April 2026
+## Why This Matters
+GenLayer allows developers to build contracts that can reason about the real world. This prediction market is a perfect example of AI-native blockchain in action.
 
----
+Full code and deployment screenshots are in this repository.
 
-"Even without prior programming experience, GenLayer Studio makes building advanced dApps accessible."
+Built as an educational contribution for the GenLayer Builder Program.
